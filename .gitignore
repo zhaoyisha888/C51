@@ -1,0 +1,26 @@
+# 忽略 VSCode 配置（个人环境相关）
+.vscode/
+
+# Keil 生成的中间文件和输出目录
+*.obj
+*.lst
+*.hex
+*.lnp
+*.bak
+*.plg
+*.tra
+*.map
+
+# Keil 工程自动生成的 GUI 配置文件
+*.uvgui.*
+*.uvopt.*
+
+# 输出文件夹
+Objects/
+Listings/
+
+# 其他临时文件
+*.tmp
+*.log
+
+# 如果你导出了一些构建结果，比如 HEX 要给别人用，可以专门建一个 release 文件夹，然后不要在这里忽略
