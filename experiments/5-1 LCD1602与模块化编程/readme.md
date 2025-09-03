@@ -50,7 +50,7 @@ LCD1602(**Liquid Crystal Display**)液晶显示屏是一种字符型液晶显
 
 ### 内部结构
 ![alt text](image-1.png)
-![alt text](image-3.png)
+![alt text](image-2.png)
 
 1. 数据显示区可比屏幕大，但是只能显示一部分，可以用来实现滚动显示
 2. 操作时可以向显示区写入数据，显示区从字模库中匹配字符，显示在屏幕上
