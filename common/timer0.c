@@ -23,6 +23,8 @@ void Timer0_Init()
 
 /**
  * @brief 定时器0的中断服务函数模板
+ * @note 中断函数与主函数耦合高，使用时要复制到主函数里
+ * @note 定时器0溢出时被自动调用，大概每 1ms 进入一次
  * @param None
  * @retval None
  */
@@ -36,6 +38,8 @@ void Timer0_Init()
 //     if(T0Count >= 1000)
 //     {
 //         T0Count = 0;
-//         P2_0 ~= P2_0;
+//         /*
+//         code
+//         */
 //     }
 // }

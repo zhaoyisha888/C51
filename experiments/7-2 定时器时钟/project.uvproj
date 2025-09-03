@@ -364,19 +364,14 @@
           <GroupName>Source Group 1</GroupName>
           <Files>
             <File>
-              <FileName>timer0.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\timer0.h</FilePath>
+              <FileName>main.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\main.c</FilePath>
             </File>
             <File>
               <FileName>timer0.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\timer0.c</FilePath>
-            </File>
-            <File>
-              <FileName>main.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\main.c</FilePath>
+              <FilePath>..\..\common\timer0.c</FilePath>
             </File>
             <File>
               <FileName>delay.c</FileName>
@@ -384,19 +379,29 @@
               <FilePath>..\..\common\delay.c</FilePath>
             </File>
             <File>
+              <FileName>timer0.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\..\common\timer0.h</FilePath>
+            </File>
+            <File>
+              <FileName>key.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\..\common\key.h</FilePath>
+            </File>
+            <File>
               <FileName>delay.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\..\common\delay.h</FilePath>
             </File>
             <File>
-              <FileName>key.h</FileName>
+              <FileName>LCD1602.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\key.h</FilePath>
+              <FilePath>..\..\common\LCD1602.h</FilePath>
             </File>
             <File>
-              <FileName>key.c</FileName>
+              <FileName>LCD1602.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\key.c</FilePath>
+              <FilePath>..\..\common\LCD1602.c</FilePath>
             </File>
           </Files>
         </Group>
