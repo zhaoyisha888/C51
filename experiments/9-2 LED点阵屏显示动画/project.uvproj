@@ -369,14 +369,24 @@
               <FilePath>.\main.c</FilePath>
             </File>
             <File>
+              <FileName>delay.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\..\common\delay.h</FilePath>
+            </File>
+            <File>
               <FileName>delay.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\common\delay.c</FilePath>
             </File>
             <File>
-              <FileName>delay.h</FileName>
+              <FileName>MatixLED.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\MatixLED.c</FilePath>
+            </File>
+            <File>
+              <FileName>MatixLED.h</FileName>
               <FileType>5</FileType>
-              <FilePath>..\..\common\delay.h</FilePath>
+              <FilePath>.\MatixLED.h</FilePath>
             </File>
           </Files>
         </Group>
