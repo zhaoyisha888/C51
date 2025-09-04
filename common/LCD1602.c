@@ -47,10 +47,10 @@ void LCD1602_WriteData(unsigned char Data)
  */
 void LCD1602_Init()
 { 
-    LCD1602_WriteCommand(0x38);
-    LCD1602_WriteCommand(0x0C);
-    LCD1602_WriteCommand(0x06);
-    LCD1602_WriteCommand(0x01);
+    LCD1602_WriteCommand(0x38);  //8位数据接口，两行显示，5*7点阵
+    LCD1602_WriteCommand(0x0C);  //显示开，光标关，闪烁关
+    LCD1602_WriteCommand(0x06);  //数据读写操作后，光标右移，画面不动
+    LCD1602_WriteCommand(0x01);  //光标复位，清屏
 }
 
 /**
