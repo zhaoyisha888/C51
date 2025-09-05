@@ -17,6 +17,6 @@ void Nixie(unsigned int location, unsigned int number)
         case 1:P2_4=0;P2_3=0;P2_2=0;break;
     }
     P0=NixieNumber[number];
-    Delay(1); 
-    P0=0x00;    
+    // Delay(1);     //ÏÔÊ¾ÍêÇåÁã
+    // P0=0x00;    
 }
