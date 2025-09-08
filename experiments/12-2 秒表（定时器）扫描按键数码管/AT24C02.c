@@ -6,7 +6,6 @@
 
 /**
  * @brief AT24C02写入一个字节
- * @note 为符合时序，每次写完需要延时5毫秒，调用delay函数
  * @param WordAddress 要写入的字节地址
  * @param Data 要写入的字节数据
  * @retval 无
