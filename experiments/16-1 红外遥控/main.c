@@ -4,7 +4,7 @@
 #include "IR.h"
 
 
-unsigned int time,num;
+unsigned int num;
 unsigned char Address;
 unsigned char Command;
 
